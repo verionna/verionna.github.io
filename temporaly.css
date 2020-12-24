@@ -1,0 +1,20 @@
+html, body {
+	background: linear-gradient(30deg, #47fad7 0%, #e4f9af 100%);
+	background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+}
+#flow {
+	position: center;
+	text-align: center;
+	padding: 10px 90px; 
+	font-size: 6vw;
+	transition: 1s all linear;
+	color: #000023;
+}
+
+#flow:hover {
+	transform: rotate(50deg);
+}
